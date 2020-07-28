@@ -1,24 +1,24 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import Navbar from "./components/navbar"
+import Heading from "./components/heading"
+import AnimatedVideo from "./components/animatedVideo"
+import AnimatedLogo from "./components/animatedLogo"
+import Controltext from "./components/controltext"
+import LaptopIcon from "./components/laptopIcon"
+import Ipodanimation from "./components/ipodanimation"
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Navbar />
+      <Heading />
+      <AnimatedVideo />
+      <AnimatedLogo />
+      <Controltext/>
+      <LaptopIcon />
+      <Ipodanimation />
+     
     </div>
   );
 }

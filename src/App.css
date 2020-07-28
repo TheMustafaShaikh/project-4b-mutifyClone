@@ -1,38 +1,167 @@
-.App {
-  text-align: center;
+.App-logo {
+    height: 40vmin;
+    pointer-events: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+    background-color: #DDE7FF;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    .App-logo {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+.navbar {
+    display: flex;
+    padding: 10px;
+}
+
+.heading {
+    text-align: center;
+    padding: 30px;
+}
+
+.heading h1 {
+    color: #282841;
+    font-size: 70px;
+}
+
+.download {
+    color: white;
+    background-color: #055CD3;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border-color: blue;
+    font-size: 20px;
+    margin-right: 8px;
+    box-shadow: 0px 0px 4px black;
+    cursor: pointer;
+}
+
+.buy {
+    color: black;
+    background-color: white;
+    padding: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    border-color: white;
+    font-size: 20px;
+    margin-right: 8px;
+    box-shadow: 0px 0px 4px black;
+    cursor: pointer;
+}
+
+.heading h4 {
+    color: #64657A;
+    font-weight: 500;
+}
+
+.navbar h4 {
+    padding-left: 8px;
+    font-weight: bolder;
+    color: #282841;
+}
+
+.videoshow {
+    text-align: center;
+    padding: 100px;
+    background-image: url("./images/bg.svg");
+    background-size: cover;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
 }
 
 .App-link {
-  color: #61dafb;
+    color: #61dafb;
+}
+
+.flex-logo {
+    text-align: center;
+}
+
+#hangout {
+    margin-top: 20% !important;
+    margin-left: 20%;
+}
+
+#skype {
+    margin-top: 50%;
+}
+
+#slack {
+    margin-left: 30%;
+}
+
+.show-bg {
+    text-align: center;
+    background-image: url("./images/bg.svg");
+    background-size: cover;
+    padding: 15%;
+}
+
+.show-laptop {
+    background-image: url("./images/macbook.png");
+    height: 50vh;
+    background-repeat: no-repeat;
+    width: 100%;
+    background-size: 100%;
+}
+
+.laptop {
+    height: 100vh;
+    width: 100%;
+    background-image: url("./images/Mockup.png");
+    background-repeat: no-repeat;
+    /* background-size:100%; */
+    display: flex;
+    align-items: center;
+}
+
+.laptop-heading {
+    color: #282841;
+    font-size: 45px;
+    font-weight: bolder;
+}
+
+.laptop-text {
+    color: gray;
+    font-size: 25px;
+}
+
+#screen {
+    margin-left: 20px;
+    margin-top: -30px;
+}
+
+.show-zoom {
+    text-align: right;
+    margin-right: 10%;
 }
 
 @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+#control-text {
+    font-size: 45px;
+    font-weight: bolder;
 }
